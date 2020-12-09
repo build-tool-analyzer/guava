@@ -18,3 +18,11 @@ out/
 
 # OS X
 .DS_Store
+
+# Gradle
+.gradle
+build/
+*/build/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
